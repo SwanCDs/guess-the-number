@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #ce24a6;
+    color: white;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.image-box {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.image-box img {
+    width: 200px;
+    height: auto;
+}
+
+.tic-tac-toe {
+    margin: 20px auto;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
