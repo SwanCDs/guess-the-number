@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MultiPlayer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 onclick="location.href='index.html'">Tic Tac Toe</h1>
+    </header>
+    <main>
+        <h2>Multi Player Mode</h2>
+        <div id="status">Click "Start Game" to begin</div>
+        <div class="tic-tac-toe">
+            <div class="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <div class="controls">
+                <button id="startBtn">Start Game</button>
+                <button id="resetBtn" disabled>Reset</button>
+                <button id="replayBtn" disabled>Replay</button>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="singleplayer.html">Single Player</a>
+        </nav>
+        <div id="timer">Time Elapsed: 00:00:00</div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
